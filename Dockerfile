@@ -23,5 +23,9 @@ MAINTAINER Kendu <devops@kendu.si>
 ################################---BUILD---#####################################
 
 ADD custom_upload_config.ini /usr/local/etc/php/conf.d/custom_upload_config.ini
+RUN apt-get update; \
+    apt-get upgrade -y; \
+    apt-get install -y php-calendar; \
+    apt-get clean
 
 ################################################################################

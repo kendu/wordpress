@@ -1,3 +1,4 @@
 #WORDPRESS
 
-Built from oficial wordpress image. The only difference is increased max upload size.
+Built from official wordpress image.  
+The difference being increased max upload size and included php calendar plugin.
